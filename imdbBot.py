@@ -11,7 +11,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Instantiate bot
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('1064540465:AAFTgEC_xtVSiu3RdoESorVfy_cAwZ5K0Qw')
 word = pyfiglet.figlet_format('SERVER   IS ONLINE')
 print(word)
 
